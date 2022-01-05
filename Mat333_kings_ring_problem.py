@@ -32,9 +32,9 @@ def conquer(rings,left,right):
         
 # array initialization
 rings = [];
-for x in range(1000):
+for x in range(10000):
     rings.append(10)
-i=random.randint(1,1000);
+i=random.randint(1,10000);
 rings[i]=11;
 divide(rings)
 print(rings)
